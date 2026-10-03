@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {}
+
+        .d1 {
+            background-image: linear-gradient(to top, green, blue);
+            width: 100px;
+            height: 170px;
+            display: inline-block;
+            border-radius: 10px;
+            align-items: center;
+            display: inline-flex;
+        }
+
+        .d2 {
+            background-image: linear-gradient(to bottom, violet, red);
+            width: 100px;
+            height: 200px;
+            display: inline-block;
+            border-radius: 10px;
+            align-items: center;
+            display: inline-flex;
+
+        }
+
+        .d2:hover {
+            width: 200px;
+            height: 400px;
+            transition: .5s;
+        }
+
+        .d1:hover {
+            width: 200px;
+            height: 340px;
+            transition: .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d1"></div>
+    <div class="d2"></div>
+</body>
+
+</html>
