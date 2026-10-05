@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            position: relative;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: #9b9898;
+        }
+
+        th,
+        .total {
+            background-color: #9b9898;
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            background-color: #7b7b7b;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col">populção</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">12.4 million</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">3.9 million</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2.0 million</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">1.5 million</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">1.2 million</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">1.1 million</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">1.0 million</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">0.9 million</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">0.8 million</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">0.7 million</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr class="total">
+                <td scope="row">Total</td>
+                <td class="num"><strong>16.3 million</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
