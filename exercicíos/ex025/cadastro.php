@@ -1,0 +1,1 @@
+os dados foram enviados para o arquivo cadastro.php, que irá processar os dados e exibir uma mensagem de confirmação.

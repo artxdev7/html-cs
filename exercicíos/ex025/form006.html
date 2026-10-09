@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend></legend>
+            <p>
+                <label for="cor">cor:</label>
+                <input type="color" name="cor" id="cor">
+            </p>
+            <p>
+                <label for="sas">sastifação:</label>
+                <input type="range" name="sas" id="sas" min="0" max="10">
+            </p>
+            <p>
+                <label for="imagem">upload de imagem:</label>
+                <input type="file" name="imagem" id="imagem">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+
+</html>
