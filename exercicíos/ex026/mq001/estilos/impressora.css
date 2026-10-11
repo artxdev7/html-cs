@@ -1,0 +1,31 @@
+/*estilos para impressoras*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article::after {
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    content: 'impresso pelo site do artx.dev';
+}
+
+menu {
+    display: none;
+}
+
+header h1 {
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+}
