@@ -1,0 +1,17 @@
+Media = "screen"
+	O atributo media="screen" instrui o navegador a carregar e aplicar o arquivo 
+	estilos/telas.css apenas quando a página HTML estiver sendo 
+	visualizada em uma tela digital.
+
+Media = "print"
+	O atributo media="print" instrui o navegador a carregar e aplicar o 
+	arquivo estilos/impressora.css apenas quando o usuário tentar imprimir 
+	a página ou visualizar uma pré-impressão
+
+O valor media="all" é o valor predefinido (padrão) do atributo media.
+O que significa media="all"?
+Quando usa media="all", está a dizer ao navegador para aplicar as regras de 
+estilo CSS a todos os dispositivos e meios de apresentação, sem exceção.
+
+media="screen and (orientation: portrait)" --> tela em pé
+media="screen" (orientation: landscape)> --> tela deitada
