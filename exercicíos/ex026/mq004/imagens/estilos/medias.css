@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*Medias quires*/
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    body {
+        background: url(../back-tablet.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media print {
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
+
+    #tv {
+        display: none;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        color: black;
+        text-shadow: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width: 1100px) {
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+    }
+
+    body {
+        background: url(../back-pc.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    body {
+        background: url(../back-tv.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+}
