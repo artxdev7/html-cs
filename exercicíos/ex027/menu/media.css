@@ -1,0 +1,19 @@
+@media screen and (max-width:540px) {
+
+    header,
+    ul {
+        display: block;
+    }
+
+    h1,
+    li {
+        text-align: center;
+    }
+
+    li:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.03);
+        transition: all .3s ease-in;
+    }
+}
