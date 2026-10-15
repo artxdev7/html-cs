@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(226, 224, 224);
+        }
+
+        header {
+            display: flex;
+            background-color: rgb(128, 127, 127);
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.427);
+            flex: 0 0 200px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            flex-flow: row wrap;
+        }
+
+        li {
+            color: white;
+            background-color: black;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        li:hover {
+            background-color: white;
+            color: black;
+            transform: scale(1.06);
+            transition: all .3s ease-in;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        article {
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.505);
+            background-color: white;
+            padding: 10px;
+            width: 450px;
+        }
+
+        section {
+            margin-top: 10px;
+        }
+
+        p {
+            text-indent: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px;
+        }
+
+        @media screen and (max-width:540px) {
+
+            header,
+            ul {
+                display: block;
+            }
+
+            h1,
+            li {
+                text-align: center;
+            }
+
+            li:hover {
+                background-color: white;
+                color: black;
+                transform: scale(1.03);
+                transition: all .3s ease-in;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li>opção 1</li>
+                <li>opção 2</li>
+                <li>opção 3</li>
+                <li>opção 4</li>
+                <li>opção 5</li>
+                <li>opção 6</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>titulo 1.2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo esse soluta voluptate nemo libero?
+                    Doloribus reiciendis velit sequi magni cumque. Ut odio maxime nobis ducimus voluptatem sint autem
+                    cumque possimus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae incidunt
+                    recusandae officiis quam aliquid ab sapiente atque nostrum id odio ut, labore exercitationem nemo
+                    expedita veniam corrupti numquam possimus perferendis! Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Facere maxime itaque consequuntur labore. Fuga nihil fugiat nemo, libero deleniti
+                    minus dolorum in ea eaque dolore repellat corporis! Quia, ad nisi. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Voluptate molestiae inventore error dolorem nemo distinctio veniam
+                    facilis quisquam officia odio! Quibusdam corporis dolore quaerat fugiat fugit animi nesciunt
+                    adipisci vel?</p>
+
+
+            </section>
+            <section>
+                <h2>titulo 1.3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero numquam vitae velit dicta et iste
+                    quia sunt repellat nesciunt, consectetur veniam, culpa non dolorum magnam error eos delectus eius!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, fugit! Quae enim sit quisquam itaque
+                    dolorem accusamus temporibus ad veritatis dolorum! Similique eveniet assumenda fuga nam officiis
+                    magnam, repudiandae error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam iste
+                    iure quas aperiam mollitia dolorum sint. Quisquam praesentium nihil exercitationem ea architecto
+                    assumenda velit, labore magnam, quaerat repellendus molestiae nisi! Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Fuga ducimus unde quidem illo cum voluptate illum beatae
+                    exercitationem consequatur at vel, odio error, iusto doloremque corrupti quis ea, atque officia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis architecto soluta ut ea
+                    totam, odio beatae nobis vitae aspernatur tempora impedit necessitatibus temporibus molestiae? Quasi
+                    illo asperiores earum magni?</p>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
